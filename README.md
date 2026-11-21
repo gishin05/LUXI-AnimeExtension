@@ -18,6 +18,7 @@ https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/index.json
 | AnimeHeaven | English (`en`) | `eu.kanade.tachiyomi.animeextension.en.animeheaven` |
 | AnimeXin | English (`en`) | `eu.kanade.tachiyomi.animeextension.en.animexin` |
 | AnimeKhor | English (`en`) | `eu.kanade.tachiyomi.animeextension.en.animekhor` |
+| KickAssAnime | English (`en`) | `eu.kanade.tachiyomi.animeextension.en.kickassanime` |
 
 ## Repository Layout
 
