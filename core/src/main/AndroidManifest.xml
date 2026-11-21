@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature android:name="tachiyomi.animeextension" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Luxi: ${extName}">
+        <meta-data
+            android:name="tachiyomi.animeextension.class"
+            android:value="${extClass}" />
+        <meta-data
+            android:name="tachiyomi.animeextension.factory"
+            android:value="${extFactory}" />
+        <meta-data
+            android:name="tachiyomi.animeextension.nsfw"
+            android:value="${nsfw}" />
+        <meta-data
+            android:name="tachiyomi.animeextension.torrent"
+            android:value="${isTorrent}" />
+        <meta-data
+            android:name="aniyomix.name"
+            android:value="${extName}" />
+        <meta-data
+            android:name="aniyomix.extensionLib"
+            android:value="16" />
+        <meta-data
+            android:name="aniyomix.contentWarning"
+            android:value="${contentWarning}" />
+        <meta-data
+            android:name="aniyomix.torrent"
+            android:value="${isTorrentBool}" />
+    </application>
+</manifest>
