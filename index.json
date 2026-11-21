@@ -1,0 +1,119 @@
+{
+  "name": "Luxi (Anime)",
+  "badgeLabel": "Luxi",
+  "signingKey": "8bf8a0a410d83a1d23de76f89da5cfedf3f1d867f5f575a078c4e42a5cb9aee2",
+  "contact": {
+    "website": "https://github.com/gishin05/LUXI-AnimeExtension",
+    "discord": null
+  },
+  "extensionList": {
+    "extensions": [
+      {
+        "name": "AnimeHeaven",
+        "packageName": "eu.kanade.tachiyomi.animeextension.en.animeheaven",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/apk/animeheaven-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.animeheaven.png?v=1"
+        },
+        "extensionLib": "16",
+        "versionCode": 1,
+        "versionName": "16.1",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "isTorrent": false,
+        "sources": [
+          {
+            "id": 8357740258782507555,
+            "name": "AnimeHeaven",
+            "language": "en",
+            "homeUrl": "https://animeheaven.me"
+          }
+        ]
+      },
+      {
+        "name": "AnimeKhor",
+        "packageName": "eu.kanade.tachiyomi.animeextension.en.animekhor",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/apk/animekhor-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.animekhor.png?v=1"
+        },
+        "extensionLib": "16",
+        "versionCode": 1,
+        "versionName": "16.1",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "isTorrent": false,
+        "sources": [
+          {
+            "id": 2156984402743841841,
+            "name": "AnimeKhor",
+            "language": "en",
+            "homeUrl": "https://animekhor.org"
+          }
+        ]
+      },
+      {
+        "name": "AnimeXin",
+        "packageName": "eu.kanade.tachiyomi.animeextension.en.animexin",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/apk/animexin-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.animexin.png?v=1"
+        },
+        "extensionLib": "16",
+        "versionCode": 1,
+        "versionName": "16.1",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "isTorrent": false,
+        "sources": [
+          {
+            "id": 4620219025406449669,
+            "name": "AnimeXin",
+            "language": "en",
+            "homeUrl": "https://animexin.dev"
+          }
+        ]
+      },
+      {
+        "name": "AniZone",
+        "packageName": "eu.kanade.tachiyomi.animeextension.all.anizone",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/apk/anizone-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.all.anizone.png?v=1"
+        },
+        "extensionLib": "16",
+        "versionCode": 1,
+        "versionName": "16.1",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "isTorrent": false,
+        "sources": [
+          {
+            "id": 954848840440936266,
+            "name": "AniZone",
+            "language": "all",
+            "homeUrl": "https://anizone.to"
+          }
+        ]
+      },
+      {
+        "name": "KickAssAnime",
+        "packageName": "eu.kanade.tachiyomi.animeextension.en.kickassanime",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/apk/kickassanime-release.apk",
+          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.kickassanime.png?v=1"
+        },
+        "extensionLib": "16",
+        "versionCode": 1,
+        "versionName": "16.1",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "isTorrent": false,
+        "sources": [
+          {
+            "id": 2081771513481539599,
+            "name": "KickAssAnime",
+            "language": "en",
+            "homeUrl": "https://kaa.lt"
+          }
+        ]
+      }
+    ]
+  },
+  "extensionListUrl": null
+}
