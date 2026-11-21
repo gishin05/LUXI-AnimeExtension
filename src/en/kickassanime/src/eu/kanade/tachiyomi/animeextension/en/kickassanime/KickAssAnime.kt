@@ -206,10 +206,16 @@ class KickAssAnime : AnimeHttpSource(), ConfigurableAnimeSource {
     }
 
     override fun animeDetailsParse(response: Response): SAnime {
+        val fallbackSlug = response.request.url.pathSegments.lastOrNull().orEmpty()
         val rawBody = response.body.string()
         val obj = runCatching { json.parseToJsonElement(rawBody).jsonObject }.getOrNull()
-            ?: return SAnime.create()
+            ?: return SAnime.create().apply {
+                url = if (fallbackSlug.isNotEmpty()) "/$fallbackSlug" else ""
+                title = ""
+            }
 
+        val resolvedSlug = obj["slug"]?.jsonPrimitive?.contentOrNull?.trim()?.takeIf(String::isNotEmpty)
+            ?: fallbackSlug
         val displayTitle = pickPreferredTitle(obj).orEmpty()
         val synopsis = obj["synopsis"]?.jsonPrimitive?.contentOrNull?.trim().orEmpty()
         val infoParts = buildList {
@@ -237,6 +243,7 @@ class KickAssAnime : AnimeHttpSource(), ConfigurableAnimeSource {
         }.ifEmpty { null }
 
         return SAnime.create().apply {
+            url = if (resolvedSlug.isNotEmpty()) "/$resolvedSlug" else ""
             title = displayTitle
             thumbnail_url = resolvePosterUrl(obj["poster"] as? JsonObject)
             description = fullDescription

@@ -320,6 +320,7 @@ class AniZone : AnimeHttpSource(), ConfigurableAnimeSource {
         }
 
         return SAnime.create().apply {
+            setUrlWithoutDomain(response.request.url.toString())
             title = resolvedTitle
             thumbnail_url = coverUrl
             description = synopsis

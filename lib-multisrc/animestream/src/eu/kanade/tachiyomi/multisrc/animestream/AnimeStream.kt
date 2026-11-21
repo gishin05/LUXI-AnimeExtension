@@ -115,6 +115,7 @@ open class AnimeStream(
     override fun animeDetailsParse(response: Response): SAnime {
         val document = response.asJsoup()
         return SAnime.create().apply {
+            setUrlWithoutDomain(response.request.url.toString())
             title = document.selectFirst("h1.entry-title")?.text()?.trim().orEmpty()
             thumbnail_url = document.selectFirst("div.thumb img")?.let(::extractImageUrl)
             description = document.select("div.entry-content p, div.mindesc")

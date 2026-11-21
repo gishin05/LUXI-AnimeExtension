@@ -106,6 +106,7 @@ class AnimeHeaven : AnimeHttpSource() {
             .ifEmpty { null }
 
         return SAnime.create().apply {
+            setUrlWithoutDomain(response.request.url.toString())
             title = document.selectFirst("div.infotitle")?.text()?.trim().orEmpty()
             thumbnail_url = document.selectFirst("img.posterimg")?.absUrl("src")?.takeIf(String::isNotBlank)
             description = combinedDesc
