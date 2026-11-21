@@ -13,11 +13,11 @@
         "packageName": "eu.kanade.tachiyomi.animeextension.en.animeheaven",
         "resources": {
           "apkUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/apk/animeheaven-release.apk",
-          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.animeheaven.png?v=1"
+          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.animeheaven.png?v=2"
         },
         "extensionLib": "16",
-        "versionCode": 1,
-        "versionName": "16.1",
+        "versionCode": 2,
+        "versionName": "16.2",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "isTorrent": false,
         "sources": [
@@ -34,11 +34,11 @@
         "packageName": "eu.kanade.tachiyomi.animeextension.en.animekhor",
         "resources": {
           "apkUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/apk/animekhor-release.apk",
-          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.animekhor.png?v=1"
+          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.animekhor.png?v=2"
         },
         "extensionLib": "16",
-        "versionCode": 1,
-        "versionName": "16.1",
+        "versionCode": 2,
+        "versionName": "16.2",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "isTorrent": false,
         "sources": [
@@ -55,11 +55,11 @@
         "packageName": "eu.kanade.tachiyomi.animeextension.en.animexin",
         "resources": {
           "apkUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/apk/animexin-release.apk",
-          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.animexin.png?v=1"
+          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.animexin.png?v=2"
         },
         "extensionLib": "16",
-        "versionCode": 1,
-        "versionName": "16.1",
+        "versionCode": 2,
+        "versionName": "16.2",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "isTorrent": false,
         "sources": [
@@ -76,11 +76,11 @@
         "packageName": "eu.kanade.tachiyomi.animeextension.all.anizone",
         "resources": {
           "apkUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/apk/anizone-release.apk",
-          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.all.anizone.png?v=1"
+          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.all.anizone.png?v=2"
         },
         "extensionLib": "16",
-        "versionCode": 1,
-        "versionName": "16.1",
+        "versionCode": 2,
+        "versionName": "16.2",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "isTorrent": false,
         "sources": [
@@ -97,11 +97,11 @@
         "packageName": "eu.kanade.tachiyomi.animeextension.en.kickassanime",
         "resources": {
           "apkUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/apk/kickassanime-release.apk",
-          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.kickassanime.png?v=1"
+          "iconUrl": "https://raw.githubusercontent.com/gishin05/LUXI-AnimeExtension/repo/icon/eu.kanade.tachiyomi.animeextension.en.kickassanime.png?v=2"
         },
         "extensionLib": "16",
-        "versionCode": 1,
-        "versionName": "16.1",
+        "versionCode": 2,
+        "versionName": "16.2",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "isTorrent": false,
         "sources": [
