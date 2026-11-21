@@ -72,8 +72,19 @@ android {
     }
 }
 
+configurations.configureEach { config ->
+    if (config.name.endsWith("RuntimeClasspath")) {
+        config.exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib"
+        config.exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-common"
+        config.exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk7"
+        config.exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk8"
+        config.exclude group: "org.jetbrains", module: "annotations"
+    }
+}
+
 dependencies {
     implementation project(":core")
+    compileOnly libs.kotlin.stdlib
     compileOnly libs.aniyomi.extensions.lib
     compileOnly libs.jspecify
     compileOnly libs.okhttp

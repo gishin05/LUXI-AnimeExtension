@@ -20,6 +20,7 @@ rxjava = { module = "io.reactivex:rxjava", version.ref = "rxjava" }
 androidx-preference = { module = "androidx.preference:preference-ktx", version.ref = "androidx-preference" }
 aniyomi-extensions-lib = { module = "com.github.aniyomiorg:extensions-lib", version.ref = "aniyomi-extensions-lib" }
 jspecify = { module = "org.jspecify:jspecify", version = "1.0.0" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

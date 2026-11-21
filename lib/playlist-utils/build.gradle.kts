@@ -25,6 +25,7 @@ android {
 }
 
 dependencies {
+    compileOnly(libs.kotlin.stdlib)
     compileOnly(libs.aniyomi.extensions.lib)
     compileOnly(libs.jspecify)
     compileOnly(libs.okhttp)

@@ -26,6 +26,7 @@ android {
 
 dependencies {
     implementation(project(":lib:playlist-utils"))
+    compileOnly(libs.kotlin.stdlib)
     compileOnly(libs.aniyomi.extensions.lib)
     compileOnly(libs.jspecify)
     compileOnly(libs.okhttp)

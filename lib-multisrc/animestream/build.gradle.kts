@@ -28,6 +28,7 @@ dependencies {
     implementation(project(":lib:playlist-utils"))
     implementation(project(":lib:okru-extractor"))
     implementation(project(":lib:dailymotion-extractor"))
+    compileOnly(libs.kotlin.stdlib)
     compileOnly(libs.aniyomi.extensions.lib)
     compileOnly(libs.jspecify)
     compileOnly(libs.okhttp)
